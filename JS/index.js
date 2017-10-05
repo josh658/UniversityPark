@@ -1,4 +1,5 @@
 
+
   $('.tile')
     // tile mouse actions
     .on('mouseover', function(){
@@ -7,7 +8,7 @@
     .on('mouseout', function(){
       $(this).children('.photo').css({'transform': 'scale(1)'});
     })
-    .on('mousemove', function(e){
+    .on('mousemove', function(){
       $(this).children('.photo').css({'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 +'%'});
     })
     // tiles set up
