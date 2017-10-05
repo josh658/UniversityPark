@@ -1,0 +1,65 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Maps and Location</title>
+			<link rel="stylesheet" href="CSS/normalize.min.css">
+            <link rel="stylesheet" href="CSS/Style_Sheet.css">
+    	</head>
+    
+    <body>
+    	<div class="container">
+			<header id="title">
+            	<h1>University Park</h1>
+          	</header>
+			
+			  
+			  <div class="topnav"  id="myTopnav">
+					<a href="Index.html">Home</a>
+					<a href="about.html">About the Property</a>
+					<a href="maps.html">Maps & Location</a>
+					<a href="gallery.html">Gallery</a>
+					<a href="condos.html">Condos</a>
+					<a href="contact.html">Contact Us</a>
+					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+					
+					<script>
+						function myFunction() {
+							var x = document.getElementById("myTopnav");
+							if (x.className === "topnav") {
+								x.className += " responsive";
+							} else {
+								x.className = "topnav";
+							}
+						}
+					</script>
+					
+				</div>
+		
+		
+        
+			<article class="content">
+				<ul class="breadcrumb">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="maps.html">Maps & Location</a></li>
+						<li>Site Plan</li>
+				</ul>
+				
+				<h1>Site Plan!</h1>
+				
+				<div class="tile" data-scale="3" data-image="SIGNATURE.jpg" alt="Subdivision"></div>
+				
+				<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+				
+				<script src="http://universitypark.ca/js/index.js"></script>
+				
+				
+                
+	      	</article>
+         	
+            <footer>
+				
+    	    </footer>
+		</div>
+    </body>
+</html>
